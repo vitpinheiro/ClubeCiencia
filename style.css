@@ -1,0 +1,40 @@
+.a{
+    background-color: #4958DC;
+}
+
+.navbar-nav a{
+    color:white;
+}
+
+.navbar-nav a:hover, 
+.navbar-nav a:focus {
+    color: white;
+}
+
+.navbar-brand img{
+    width: 11em;;
+}
+
+/* .vejociencia img{
+    height: 3em;
+    width: 60em;
+} */
+
+.card-title{
+    font-weight: 700;
+   
+}
+
+.card-body{
+    background-color: #84BDC2;
+}
+
+#eventos{
+    background-color: #FAAC16;
+}
+
+#saibamais{
+    background-color: #060B2E;
+    color: white;
+}
+
