@@ -7,6 +7,11 @@ body {
     background-color: #4958DC;
 }
 
+#logo img{
+  height: 4em;
+  width: 8em;
+}
+
 .navbar-nav a{
     color:white;
 }
@@ -79,8 +84,8 @@ footer {
   }
   
   .info {
-    padding: 1em 0 0 0;
-    gap: 3em;
+    padding: 1em 0 0 1;
+    gap: 2em;
     border-top: 1px solid white;
   }
   
@@ -104,10 +109,6 @@ footer {
     width: 100%;
     text-align: end;
   }
-
-
-
-
 
   /* Fim do footer  */
 
