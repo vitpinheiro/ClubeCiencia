@@ -1,3 +1,8 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    overflow-x: hidden; /* Evita a rolagem lateral */
+}
+
 .a{
     background-color: #4958DC;
 }
@@ -27,6 +32,7 @@
 
 .card-body{
     background-color: #84BDC2;
+   
 }
 
 #eventos{
@@ -37,4 +43,71 @@
     background-color: #060B2E;
     color: white;
 }
+
+/* footer  */
+footer {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  footer section {
+    margin: 0 0 1em 0;
+    display: flex;
+  }
+  
+  footer section div {
+    width: 160px;
+  }
+  
+  footer section div h3 {
+    margin: 0 0 4px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+  }
+  
+  footer section div ol a {
+    margin: 0 0 2px 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  footer section div p {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+  }
+  
+  .info {
+    padding: 1em 0 0 0;
+    gap: 3em;
+    border-top: 1px solid white;
+  }
+  
+  .logos {
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .social {
+    display: flex;
+    gap: 8px;
+    width: 28px;  /* Define a largura */
+    height: 28px; /* Define a altura */
+    margin-right: 5em;
+    
+  }
+  
+
+  
+  .assinatura {
+    width: 100%;
+    text-align: end;
+  }
+
+
+
+
+
+  /* Fim do footer  */
 
