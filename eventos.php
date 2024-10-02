@@ -11,7 +11,7 @@
 <header>
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid" style="background-color: #4958DC;">
-    <a class="navbar-brand" id="logo" href="#"><img src="images/logosimbolo.png" alt=""></a>
+    <a class="navbar-brand" id="logo" href="index.php"><img src="images/logosimbolo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,7 +20,7 @@
         <a class="nav-link" aria-current="page" href="quemsomos.php">QUEM SOMOS</a>
         <a class="nav-link" href="eventos.php">EVENTOS</a>
         <a class="nav-link" href="experimentos.php">EXPERIMENTOS</a>
-        <a class="nav-link"  href="sejamembro.php">SEJA MEMBRO</a>
+        <a class="nav-link" href="sejamembro.php">SEJA MEMBRO</a>
       </div>
     </div>
   </div>
@@ -30,30 +30,10 @@
 </header>
 
 <main class="container d-flex flex-column align-items-center mt-5">
-  <div class="card d-flex flex-column flex-lg-row-reverse mb-5" style="width: 100%; max-width: 53rem;">
-    <div class="row g-0" style="width: 100%;">
-      <!-- Imagem ocupando metade do card em telas médias e grandes -->
-      <div class="col-12 col-md-6 col-lg-6 order-lg-2">
-        <img class="card-img-right img-fluid h-100" src="images/masterclass.png" alt="Imagem do evento" style="object-fit: cover;">
-      </div>
 
-      <!-- Conteúdo do card -->
-      <div class="col-12 col-md-6 col-lg-6 oder-lg-1">
-        <div class="card-body d-flex flex-column justify-content-between h-100">
-          <div>
-            <h5 class="card-title">ATENÇÃO ALUNOS DO IFRN CNAT!</h5>
-            <p class="card-text mt-4">Dia 16/11 vocês poderão atuar como físicos de partículas por um dia.</p>
-          </div>
-          <div class="d-flex justify-content-center mt-5">
-            <a href="#" id="saibamais" class="btn btn-primary">SAIBA MAIS</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="mb-3 mt-5 text-center text-lg-left" style="width: 100%;">
-    <h3 style="color:white;">ÚLTIMOS EVENTOS</h3>
+  <div class="mb-3 mt-1 text-center text-lg-left" style="width: 100%;">
+    <h3 style="color:white;">PRÓXIMOS EVENTOS</h3>
   </div>
 
   <div class="row">
@@ -89,27 +69,7 @@
   </div>
   
 
-  <!-- <figure class="row mt-5 mb-5" style="position: relative; width: 100vw; height: auto; margin: 0; text-align: center;">
-    <h2 style="position: absolute; top: 5%; left: 50%; transform: translateX(-50%); color:white;">CIENCIBUS</h2>
-    <p style="position: absolute; top: 30%; left: 25%; transform: translate(-50%, 0); width: 40%; text-align: left; color:white;">Venha conhecer nosso laboratório móvel e embarcar nessa viagem científica.</p>
-    
-    Contêiner para centralizar o botão -->
-    <!-- <div style="position: absolute; top: 60%; right: 25%; transform: translateX(0);">
-        <a href="#" class="btn" style="font-size: 1.2rem;color:white; background-color:#05703A;">SAIBA MAIS</a>
-    </div> -->
-    
-    <!-- <img src="images/retangulo.png" alt="Retângulo" style="width: 100%; height: auto; object-fit: cover;">
-    
-    <img src="images/onibus.png" alt="Ônibus" style="position: absolute; top: 22%; right: 5%; width: 50%; height: auto; object-fit: contain;">
-  </figure>  --> 
 
-  <figure class="d-flex align-items-center mt-5 mb-5">
-    <img src="images/eistein.png" alt="Imagem de Einstein" style="max-width: 50%; height: auto; object-fit: cover;">
-    <div class="ms-5 mb-5">
-        <h2 style="color:white;">QUEM SOMOS NÓS?</h2>
-        <p class="text-white fw-light">O clube de ciência do IFRN é um ambiente onde exala ciência e que visa nos mostrar que ela está em todos os lugares.</p>
-    </div>
-</figure>
 </main>
 
 <footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem somos</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
@@ -19,33 +19,40 @@
       <div class="navbar-nav" style="margin-right:15em;">
         <a class="nav-link" aria-current="page" href="quemsomos.php">QUEM SOMOS</a>
         <a class="nav-link" href="eventos.php">EVENTOS</a>
-        <a class="nav-link" href="experimentos.php">EXPERIMENTOS</a>
-        <a class="nav-link"  href="sejamembro.php">SEJA MEMBRO</a>
+        <a class="nav-link" href="#">EXPERIMENTOS</a>
+        <a class="nav-link" href="sejamembro.php">SEJA MEMBRO</a>
       </div>
     </div>
   </div>
 </nav>
+
+
 </header>
 
-<main>
-    <section class="quemsomos d-flex justify-content-center mt-5 mb-5">
-        <div>
-            <h2>QUEM SOMOS?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Aliquet leo at iaculis etiam quam imperdiet quisque dignissim. At At
-                bibendum<br>
-                At bibendum eu viverra vulputate. Ligula mi morbi non gravida At bibendum At bibendum At bibendum <br>
-                condimentum a vestibulum pellentesque tempor. Leo tellus orci est ultrices non<br>
-                tincidunt neque. At sit amet sapien ac est volutpat.</p>
+<main class="container d-flex flex-column align-items-center mt-5">
+
+<figure class="mt-5">
+    <h2 style="color: #02FF26;">CONHEÇA O CIENCIBUS</h2>
+    <img src="images/onibuss.png" alt="">
+    <p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusantium cumque, assumenda fugit, fugiat eaque amet mollitia tempore fuga voluptatibus possimus!
+     <br>Hic magni tenetur, veritatis accusantium id explicabo perspiciatis quam.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, vitae sequi adipisci <br> beatae rem blanditiis doloremque? Nobis reiciendis perferendis qui voluptatem recusandae, quod quasi quas cupiditate rem eos blanditiis earum.</p>
+</figure>
+
+
+<figure class="mt-5" style="margin-left:3em;">
+    <h2 style="color: #FAAC16;">EXPERIMENTOS</h2>
+    <div class="d-flex align-items-center">
+        <img src="images/experimento.png" alt="" class="me-3" style="max-width: 200px; height: auto;">
+        <div style="color: white;">
+            <h4>Você sabe o funcionamento da panela de pressão e por que ela acelera o cozimento?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur. Ornare facilisi ut nulla euismod lacinia nibh sed donec consectetur. Velit nam justo orci aliquam sit. Ut dictum nisl massa tellus. Vivamus sit sit urna at vitae cum libero bibendum turpis.</p>
         </div>
-        <figure>
-            <img src="images/logosimbolo.png" alt="">
-        </figure>
-    </section>
+    </div>
+</figure>
+
+
 
 </main>
-
-
-
 
 <footer>
     <section class="logos">

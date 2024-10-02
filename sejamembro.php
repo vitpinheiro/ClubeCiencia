@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem somos</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
@@ -19,33 +19,51 @@
       <div class="navbar-nav" style="margin-right:15em;">
         <a class="nav-link" aria-current="page" href="quemsomos.php">QUEM SOMOS</a>
         <a class="nav-link" href="eventos.php">EVENTOS</a>
-        <a class="nav-link" href="experimentos.php">EXPERIMENTOS</a>
+        <a class="nav-link" href="#">EXPERIMENTOS</a>
         <a class="nav-link"  href="sejamembro.php">SEJA MEMBRO</a>
       </div>
     </div>
   </div>
 </nav>
+
+
 </header>
 
-<main>
-    <section class="quemsomos d-flex justify-content-center mt-5 mb-5">
-        <div>
-            <h2>QUEM SOMOS?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Aliquet leo at iaculis etiam quam imperdiet quisque dignissim. At At
-                bibendum<br>
-                At bibendum eu viverra vulputate. Ligula mi morbi non gravida At bibendum At bibendum At bibendum <br>
-                condimentum a vestibulum pellentesque tempor. Leo tellus orci est ultrices non<br>
-                tincidunt neque. At sit amet sapien ac est volutpat.</p>
+<main class="container d-flex flex-column  mt-5">
+
+<h2 style="color:white;">EQUIPE</h2>
+<div id="accordionExample">
+  <p class="d-inline-flex gap-1">
+    <a class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Professores</a>
+    <a class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Alunos</a>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse" id="multiCollapseExample1" data-bs-parent="#accordionExample">
+        
+        <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        <figure>
-            <img src="images/logosimbolo.png" alt="">
-        </figure>
-    </section>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse" id="multiCollapseExample2" data-bs-parent="#accordionExample">
+        <div class="card card-body">
+          Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger for Alunos.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 </main>
-
-
-
 
 <footer>
     <section class="logos">
