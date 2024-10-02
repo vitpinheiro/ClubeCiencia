@@ -17,7 +17,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav" style="margin-right:15em;">
-        <a class="nav-link" aria-current="page" href="#">QUEM SOMOS</a>
+        <a class="nav-link" aria-current="page" href="quemsomos.php">QUEM SOMOS</a>
         <a class="nav-link" href="#">EVENTOS</a>
         <a class="nav-link" href="#">EXPERIMENTOS</a>
         <a class="nav-link" >SEJA MEMBRO</a>
